@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
     public void reset(View view){
         GridLayout gridLayout= findViewById(R.id.gridLayout);
         int total_images = gridLayout.getChildCount();
-        for (int i =0 ; i<total_images; i++){
+        for (int i =0 ; i < total_images; i++){
             ImageView v= (ImageView) gridLayout.getChildAt(i);
             v.setImageDrawable(null);
         }
